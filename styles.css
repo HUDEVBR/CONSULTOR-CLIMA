@@ -54,8 +54,8 @@ button:hover{
     transform: scale(1.1);
 }
 .weather-icon{
-    width: 200px;
-    margin-top: 30px;
+    width: 300px;
+    margin-top: 10px;
 }
 .weather h1{
     font-size: 80px;
@@ -86,9 +86,13 @@ button:hover{
     font-size: 28px;
     margin-top: -6px;
 }
-#svgCloud{
-    offset-position: 95% 5%;
-    offset: #020024;
-    offset: #00d4ff;
-    
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
